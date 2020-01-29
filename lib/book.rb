@@ -11,7 +11,7 @@ class Book
     @title
   end
 
-  def author_name=(author_name= "Agatha Christie")
+  def author_name=(author_name)
     @author_name = author_name
   end
 
@@ -21,3 +21,5 @@ class Book
   end
 
 end
+
+and_then_there_were_none= Book.new("And Then There Were None")
