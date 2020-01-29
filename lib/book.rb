@@ -22,4 +22,4 @@ class Book
 
 end
 
-and_then_there_were_none= Book.new("And Then There Were None")
+# and_then_there_were_none= Book.new("And Then There Were None")
