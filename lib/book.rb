@@ -20,6 +20,14 @@ class Book
 
   end
 
+  def page_count=(page_count)
+    @page_count = page_count    
+  end
+
+  def page_count
+    @page_count    
+  end
+
 end
 
 # and_then_there_were_none= Book.new("And Then There Were None")
