@@ -36,6 +36,33 @@ class Book
     @genre
   end
 
+  def turn_page=(turn_page)
+    @turn_page = turn_page    
+  end
+
+  def turn_page
+    @turn_page    
+  end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
 end
 
 # and_then_there_were_none= Book.new("And Then There Were None")
