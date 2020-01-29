@@ -11,7 +11,7 @@ class Book
     @title
   end
 
-  def author_name=(author_name)
+  def author_name=(author_name= "Agatha Christie")
     @author_name = author_name
   end
 
